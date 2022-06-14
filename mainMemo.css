@@ -1,0 +1,55 @@
+body{
+    background-image: url(backo.jpg);
+    margin: 2% 2%;
+    padding : 2% 2%;
+
+}
+.board{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.laneOne{
+    display: flex;
+    margin: 10% 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.laneTwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+#oneOne{
+    
+    height: 150px;
+    width: 100px;
+    margin: 2% 2%;
+}
+
+#oneTwo{
+    height: 150px;
+    width: 100px;
+    margin: 2% 2%;
+}
+
+#twoOne{
+    height: 150px;
+    width: 100px;
+    margin: 2% 2%;
+}
+
+#twoTwo{
+    height: 150px;
+    width: 100px;
+    margin: 2% 2%;
+}
